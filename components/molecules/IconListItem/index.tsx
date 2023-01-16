@@ -1,5 +1,5 @@
-import Text from 'components/atoms/Text'
 import React from 'react'
+import Text from '../../atoms/Text'
 interface IconListItemProps {
   label?: string
   value: string

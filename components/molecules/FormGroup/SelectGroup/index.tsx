@@ -1,7 +1,7 @@
-import Select, { SelectProps } from 'components/atoms/Form/Select'
-import Label from 'components/atoms/Label'
 import { useEffect, useState } from 'react'
-import randomString from 'utils/randomString'
+import randomString from '../../../../utils/randomString'
+import Label from '../../../atoms/Label'
+import Select, {SelectProps} from '../../../atoms/Form/Select'
 
 interface SelectGroupProps extends SelectProps {
   label: string

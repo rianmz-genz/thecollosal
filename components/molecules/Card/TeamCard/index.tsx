@@ -1,6 +1,6 @@
-import Text from 'components/atoms/Text'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
+import Text from '../../../atoms/Text'
 interface TeamCardProps {
   imageSrc: string
   name: string

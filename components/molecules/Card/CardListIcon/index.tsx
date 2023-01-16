@@ -1,5 +1,5 @@
-import Text from 'components/atoms/Text'
 import React from 'react'
+import Text from '../../../atoms/Text'
 interface CardListIconProps {
   icon: JSX.Element
   title: string

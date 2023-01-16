@@ -1,7 +1,6 @@
-import useMobileDeviceDetection from 'hooks/useMobileDetection'
 import React, { useEffect, useRef, useState } from 'react'
 import { FiChevronDown } from 'react-icons/fi'
-import randomString from 'utils/randomString'
+import randomString from '../../../../utils/randomString'
 
 interface SelectOption {
   label: string
@@ -28,7 +27,6 @@ const Select = ({
     defaultIndex == -1 ? 0 : defaultIndex
   )
   const [isOpen, setIsOpen] = useState<boolean>(false)
-  const isMobile = useMobileDeviceDetection()
   const nativeSelect: React.LegacyRef<HTMLSelectElement> = useRef(null)
   const triggerSelectChangeEvent = (index: number) => {
     if (nativeSelect.current) {
@@ -40,9 +38,7 @@ const Select = ({
     <>
       {/* Fake Select */}
       <div
-        className={`w-full relative select-none ${
-          isMobile ? 'cursor-default' : 'cursor-pointer'
-        }`}
+        className={`w-full relative select-none cursor-pointer`}
       >
         <div
           className={`w-full flex place-content-between place-items-center bg-transparent border-borderLight px-4 py-2 rounded hover:bg-light border hover:border-white z-10 hover:border-opacity-30 `}

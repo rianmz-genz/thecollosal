@@ -13,6 +13,9 @@ const PageTemplate = ({ children, title = "Collosal" }: PageTemplateProps) => {
     <>
       <Head>
         <title>{title}</title>
+        <meta property="title" content="Collosal" />
+        <meta property="description" content="Collosal is company profile website slicing design by Adrian" />
+        <link rel="shortcut icon" href="../images/favicon.svg" />
       </Head>
       {/* Navbar Fixed on top */}
       <NavBar />
