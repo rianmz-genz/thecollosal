@@ -1,5 +1,6 @@
-import Text from 'components/atoms/Text'
+
 import React from 'react'
+import Text from '../../atoms/Text'
 interface SectionSentenceProps {
   badge?: string
   title?: string

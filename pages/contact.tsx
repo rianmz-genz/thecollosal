@@ -1,11 +1,12 @@
-import Button from 'components/atoms/Button'
-import InputGroup from 'components/molecules/FormGroup/InputGroup'
-import TextAreaGroup from 'components/molecules/FormGroup/TextAreaGroup'
-import IconListItem from 'components/molecules/IconListItem'
-import PageSentence from 'components/molecules/PageSentence'
-import PageTemplate from 'components/templates/PageTemplate'
+
 import React from 'react'
 import { FiMail, FiPhoneCall } from 'react-icons/fi'
+import PageTemplate from '../components/templates/PageTemplate'
+import PageSentence from '../components/molecules/PageSentence'
+import IconListItem from '../components/molecules/IconListItem'
+import InputGroup from '../components/molecules/FormGroup/InputGroup'
+import TextAreaGroup from '../components/molecules/FormGroup/TextAreaGroup'
+import Button from '../components/atoms/Button'
 
 const Contact = () => {
   return (

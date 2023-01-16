@@ -1,7 +1,7 @@
-import Input, { InputProps } from 'components/atoms/Form/Input'
-import Label from 'components/atoms/Label'
+import Label from '../../../atoms/Label'
 import { useEffect, useState } from 'react'
-import randomString from 'utils/randomString'
+import randomString from '../../../../utils/randomString'
+import Input, {InputProps} from '../../../atoms/Form/Input'
 
 interface InputGroupProps extends InputProps {
   label: string

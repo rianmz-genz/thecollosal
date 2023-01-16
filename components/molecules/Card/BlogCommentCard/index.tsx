@@ -1,6 +1,7 @@
-import Text from 'components/atoms/Text'
+
 import Image from 'next/image'
 import React from 'react'
+import Text from '../../../atoms/Text'
 interface BlogCommentCardProps {
   avatarSrc: string
   name: string

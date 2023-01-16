@@ -1,7 +1,7 @@
-import TextArea, { TextAreaProps } from 'components/atoms/Form/Textarea'
-import Label from 'components/atoms/Label'
 import { useEffect, useState } from 'react'
-import randomString from 'utils/randomString'
+import randomString from '../../../../utils/randomString'
+import Label from '../../../atoms/Label'
+import TextArea, {TextAreaProps} from '../../../atoms/Form/Textarea'
 
 interface TextAreaGroupProps extends TextAreaProps {
   label: string

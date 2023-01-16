@@ -1,7 +1,8 @@
-import Text from 'components/atoms/Text'
+
 import Image from 'next/image'
 import React from 'react'
 import { FiFacebook, FiLinkedin, FiTwitter } from 'react-icons/fi'
+import Text from '../../../atoms/Text'
 interface BlogAuthorCardProps {
   avatarSrc: string
   name: string

@@ -1,8 +1,9 @@
-import LineDivider from 'components/atoms/LineDivider'
-import Text from 'components/atoms/Text'
-import PageSentence from 'components/molecules/PageSentence'
-import PageTemplate from 'components/templates/PageTemplate'
+
 import React from 'react'
+import PageTemplate from '../components/templates/PageTemplate'
+import PageSentence from '../components/molecules/PageSentence'
+import Text from '../components/atoms/Text'
+import LineDivider from '../components/atoms/LineDivider'
 
 const TermOfService = () => {
   return (

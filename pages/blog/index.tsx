@@ -1,11 +1,11 @@
-import Button from 'components/atoms/Button'
-import LineDivider from 'components/atoms/LineDivider'
-import BlogCard, { BlogCardProps } from 'components/molecules/Card/BlogCard'
-import PageSentence from 'components/molecules/PageSentence'
-import PageTemplate from 'components/templates/PageTemplate'
 import Link from 'next/link'
 import React from 'react'
-import randomString from 'utils/randomString'
+import randomString from '../../utils/randomString'
+import PageTemplate from '../../components/templates/PageTemplate'
+import PageSentence from '../../components/molecules/PageSentence'
+import BlogCard, {BlogCardProps} from '../../components/molecules/Card/BlogCard'
+import LineDivider from '../../components/atoms/LineDivider'
+import Button from '../../components/atoms/Button'
 
 const Blog = () => {
   const blogListData: BlogCardProps[] = [
